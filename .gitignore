@@ -1,6 +1,5 @@
-/coverage/
-/.vscode/
+/coverage/*
+/.vscode/*
 stat.yml
 
-# rspec failure tracking
-.rspec_status
+
