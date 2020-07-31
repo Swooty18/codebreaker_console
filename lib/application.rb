@@ -3,10 +3,10 @@
 # Console application.
 # Should be pushed into the other gem in the future!
 class Application
+  CODE_RANGE_MIN = Codebreaker::Game::CODE_RANGE_MIN
+  CODE_RANGE_MAX = Codebreaker::Game::CODE_RANGE_MAX
+  COUNT_OF_NUMBER = Codebreaker::Game::COUNT_OF_NUMBER
   FILESTAT = './stat.yml'
-  CODE_RANGE_MIN = 1
-  CODE_RANGE_MAX = 6
-  COUNT_OF_NUMBER = 4
 
   include Registration
   include Difficulty
