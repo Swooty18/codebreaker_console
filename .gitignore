@@ -1,5 +1,4 @@
-/coverage/*
-/.vscode/*
-stat.yml
+/coverage/
+/.vscode/
 
 
