@@ -9,4 +9,4 @@ require_relative './lib/modules/registration.rb'
 require_relative './lib/application.rb'
 
 require_relative 'config/initializers/locale'
-Application.new.run
+# Application.new.run
