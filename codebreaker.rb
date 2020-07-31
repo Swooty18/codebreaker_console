@@ -10,4 +10,4 @@ require_relative './lib/application.rb'
 
 require_relative 'config/initializers/locale'
 require 'simplecov'
-Application.new.run
+SimpleCov.start
