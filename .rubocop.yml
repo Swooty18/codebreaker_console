@@ -1,0 +1,14 @@
+require: rubocop-rspec
+Style:
+  Enabled: false
+RSpec/FilePath:
+    Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/SubjectStub:
+    Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
