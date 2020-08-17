@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.1)
-    codebreaker_mats (0.1.6)
+    codebreaker_mats (0.1.8)
     colorize (0.8.1)
     concurrent-ruby (1.1.6)
     diff-lcs (1.4.4)
@@ -58,7 +58,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codebreaker_mats (= 0.1.6)
+  codebreaker_mats (= 0.1.8)
   fasterer (= 0.8.3)
   i18n (~> 1.8.3)
   rspec (~> 3.9)

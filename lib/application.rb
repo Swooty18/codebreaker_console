@@ -57,6 +57,15 @@ class Application
     end
   end
 
+  def select_difficulty(game)
+    loop do
+      print I18n.t(:select_difficulty)
+      diff = $stdin.gets.chomp
+      check_on_exit(diff)
+      break if (case_diff(game, diff))
+    end
+  end
+
   def game_progress
     print I18n.t(:guess)
     input = $stdin.gets.chomp
@@ -75,7 +84,7 @@ class Application
       puts I18n.t(:won)
       puts I18n.t(:save_result?)
       if $stdin.gets.chomp == I18n.t(:yes)
-        @game.save_stat(FILESTAT)
+        @game.save_stat_in_file(FILESTAT, @game.stats_hash)
       end
     else
       puts @game.marks
